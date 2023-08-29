@@ -19,14 +19,20 @@ Used this way because LANs in e107 has to start with LAN_ - to be able to use sh
 
 ## Use 
 in efiction/header.php  
-use e107::lan('efiction_languages', 'lan');
-use e107::lan('efiction_languages', 'lan_admin');
+use e107::lan('elanguages', 'lan');
+use e107::lan('elanguages', 'lan_admin');
 
+## UNNuke strings
+use e107::lan('elanguages', 'lang');
+use e107::lan('elanguages', 'lang_admin');
 
 ### New strings:
 English_front.php
-use: e107::lan('efiction_languages');
+use: e107::lan('elanguages');
 English_admin.php
-use: e107::lan('efiction_languages', true);
+use: e107::lan('elanguages', true);
+
+
+
 
 
